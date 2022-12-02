@@ -45,11 +45,11 @@ func main() {
 	current := 0
 
 	for index, elfCalories := range allElfCalories {
-    fmt.Println(index, elfCalories)
+		fmt.Println(index, elfCalories)
 		current = 0
 
-    for j := 0; j < len(elfCalories); j++ {
-			current = current + elfCalories[j] 
+		for j := 0; j < len(elfCalories); j++ {
+			current = current + elfCalories[j]
 		}
 
 		if current > max {
